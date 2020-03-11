@@ -1,6 +1,6 @@
 # lio_integration
 
-O objetivo dessa documentação é disponibilizar meios para o desenvolvimento hibrido com a Cielo LIO, por meio de Deep Link. Através dessa documentação é possivel desenvolver aplicativos em diferetes linguagens.
+O objetivo dessa documentação é possibilitar o desenvolvimento hibrido com a Cielo LIO, por meio de Deep Link. Através dessa documentação é possivel desenvolver aplicativos em diferentes linguagens.
 
 ### Integração Híbrida Pagamento 
  
