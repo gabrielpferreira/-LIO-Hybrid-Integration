@@ -5,7 +5,7 @@ para que a mesma possa responder após o fluxo de pagamento/cancelamento/impress
 aplicação conforme o exemplo abaixo: 
 
 ```html
-< activity android:name=".ResponseActivity">    
+<activity android:name=".ResponseActivity">    
 <intent-filter>
    <action android:name="android.intent.action.VIEW" />
    <category android:name="android.intent.category.DEFAULT" />
@@ -15,7 +15,8 @@ aplicação conforme o exemplo abaixo:
 </intent-filter>
 </activity>
 ```
-Os nomes "response" e "order" podem ser substituídos pelo que fizer sentido no seu aplicativo. Lembrando que na hora de fazer a chamada de pagamento, você deve informar os mesmos nomes para receber o callback da LIO. Para realizar o pedido de pagamento é preciso criar um json seguindo o formato definido abaixo e converte-lo para BASE64:
+Os nomes "response" e "order" podem ser substituídos pelo que fizer sentido no seu aplicativo. Lembrando que na hora de fazer a 
+chamada de pagamento, você deve informar os mesmos nomes para receber o callback da LIO. Para realizar o pedido de pagamento é preciso criar um json seguindo o formato definido abaixo e converte-lo para BASE64:
 
 ```json
 {
@@ -284,9 +285,9 @@ Multi:
 
 accessToken:  Identificação do token de acesso, que armazena as regras de acesso permitidas ao Client ID.
 
-clientID: Identificação de acesso. Você pode criar a seu client-id diretamente no Portal de Desenvolvedores.
+clientID: Identificação de acesso.
 
-Link direto: https://desenvolvedores.cielo.com.br/api-portal/pt-br/myapps/new
+Você pode solicitar as credenciais diretamente via [PORTAL DE DESENVOLVEDORES](https://desenvolvedores.cielo.com.br/api-portal/pt-br/myapps/new)
 
 Disponibilizamos também a lista do campo “paymentCode”:
 
@@ -301,6 +302,4 @@ Disponibilizamos também a lista do campo “paymentCode”:
 | VOUCHER_ALIMENTACAO    |
 | VOUCHER_REFEICAO       |
 
-Para que seja possível integrar de forma híbrida o nosso time de Suporte  a Desenvolvedores precisa enviar o aplicativo UriAppClient para a LIO. Para isso, basta abrir um ticket diretamente no link abaixo:
-
-https://devcielo.zendesk.com/hc/pt-br/requests/new?ticket_form_id=360000201671
+Para que seja possível integrar de forma híbrida o nosso time de Suporte  a Desenvolvedores precisa enviar o aplicativo UriAppClient para a LIO. Para isso, [Abra um ticket](https://devcielo.zendesk.com/hc/pt-br/requests/new?ticket_form_id=360000201671)
