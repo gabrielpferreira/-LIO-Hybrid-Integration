@@ -226,7 +226,7 @@ lio://print?request=$base64&urlCallback=order://response
 
 Segue abaixo, alguns exemplos de impressão:
 
-Texto:
+# Texto:
 
 ``` json
 {
@@ -241,7 +241,7 @@ Texto:
 }
 ```
 
-Imagem:
+# Imagem:
 
 ```json
 {
@@ -255,7 +255,7 @@ Imagem:
 ]
 }
 ```
-Multi:
+# Multi:
 
 ```json
 {
