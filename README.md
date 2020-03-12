@@ -287,11 +287,9 @@ Multi:
 
 ### Observações:
 
-accessToken:  Identificação do token de acesso, que armazena as regras de acesso permitidas ao Client ID.
+Você pode solicitar as credenciais (client-id/access-token) diretamente via [PORTAL DE DESENVOLVEDORES](https://desenvolvedores.cielo.com.br/api-portal/pt-br/myapps/new)
 
-clientID: Identificação de acesso.
-
-Você pode solicitar as credenciais diretamente via [PORTAL DE DESENVOLVEDORES](https://desenvolvedores.cielo.com.br/api-portal/pt-br/myapps/new)
+![Exemplo] https://desenvolvedores.cielo.com.br/api-portal/sites/default/files/apis.png
 
 Disponibilizamos também a lista do campo “paymentCode”:
 
@@ -306,4 +304,4 @@ Disponibilizamos também a lista do campo “paymentCode”:
 | VOUCHER_ALIMENTACAO    |
 | VOUCHER_REFEICAO       |
 
-Para que seja possível integrar de forma híbrida o nosso time de Suporte  a Desenvolvedores precisa enviar o aplicativo UriAppClient para a LIO. Para isso, [Abra um ticket](https://devcielo.zendesk.com/hc/pt-br/requests/new?ticket_form_id=360000201671) em nossa ferramente de atedimento
+> **Atenção**: Para que seja possível integrar de forma híbrida o nosso time de Suporte  a Desenvolvedores precisa enviar o aplicativo UriAppClient para a LIO. Para isso, [Abra um ticket](https://devcielo.zendesk.com/hc/pt-br/requests/new?ticket_form_id=360000201671) em nossa ferramente de atedimento.
