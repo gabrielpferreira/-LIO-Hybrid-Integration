@@ -289,7 +289,7 @@ Multi:
 
 Você pode solicitar as credenciais (client-id/access-token) diretamente via [PORTAL DE DESENVOLVEDORES](https://desenvolvedores.cielo.com.br/api-portal/pt-br/myapps/new)
 
-![Exemplo] https://desenvolvedores.cielo.com.br/api-portal/sites/default/files/apis.png
+![https://desenvolvedores.cielo.com.br/api-portal/sites/default/files/apis.png]
 
 Disponibilizamos também a lista do campo “paymentCode”:
 
